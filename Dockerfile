@@ -4,7 +4,7 @@
 # user:/root
 # workdir:/root
 #=======================
-FROM ubuntu:20.04 as main
+FROM ubuntu:18.04 as main
 USER root
 WORKDIR /root
 ENV DEBIAN_FRONTEND=noninteractive
